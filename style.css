@@ -1,0 +1,477 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.navigation {
+    text-align:center;
+}
+
+.header {
+    background-color: #E5E5E5;
+}
+
+.item {
+    display: inline-block;
+    padding-right: 30px;
+    vertical-align: top;
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+
+.toplinks {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+
+.midheader {
+    border-bottom-color: #EFEFEF;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.leftmidheader {
+    display:inline-block;
+}
+
+.rightmidheader {
+    display: inline-block;
+    float: right;
+}
+
+.logo {
+    margin-right: 20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.beauty {
+    position:relative;
+    top:-45px;
+}
+
+.number {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top:50px;
+    margin-bottom:51px;
+    margin-right:40px;
+}
+
+.recall {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    padding-left: 27px;
+    padding-right: 26px;
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.navigationservices {
+    text-align:center;
+}
+
+.item-services {
+    display: inline-block;
+    padding-right: 40px;
+    vertical-align: top;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.midlinks {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.widecontainer {
+    width:1903px;
+    background-color: #F13C6E;
+    height:604px;
+    background-image: url("images/Rectangle2.png");
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.super {
+    padding-top:192px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-bottom: 62px;
+    width:308px;
+}
+
+.detail {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    padding-top:12px;
+    padding-bottom:13px;
+    padding-left:27px;
+    padding-right:26px;
+    color: #FFFFFF;
+}
+
+.specials {
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.specialcards {
+    width:255px;
+    margin-top:38px;
+    background-color: #FFFFFF;;
+    padding-bottom: 25px;
+    margin-right:30px;
+    display: inline-block;
+}
+
+.chair {
+    padding-top: 25px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.body {
+    background-color: #E5E5E5;
+}
+
+.chairdescribe {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    width:195px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+}
+
+.chairprice {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: 20px;
+}
+
+.chairbuy {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #F13C6E;
+    border-radius: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 39px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+.chairbuyblock {
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top:20px;
+}
+
+.specialcards.lastcard {
+    margin-right:0px;
+}
+
+.blockcards {
+    padding-bottom:100px;
+}
+
+.bigcards {
+    vertical-align: top;
+}
+
+.messagecard {
+    background-color: #F13C6E;
+    margin-right: 30px;
+    width:540px;
+    display: inline-block;
+}
+
+.textmessageblock {
+    padding-left: 40px;
+    display: inline-block;
+}
+
+.bonused {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top:35px;
+    width:250px;
+}
+
+.award {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width:231px;
+}
+
+.writemail {
+    background: #FFFFFF;
+    width:229px;
+    border-radius: 30px;
+    padding-top:9px;
+    padding-bottom:9px;
+    padding-left:25px;
+    padding-right:104px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+}
+
+.messageblock {
+    display: inline-block;
+    padding-left:65px;
+    padding-right:45px;
+    padding-top: 52.73px;
+    padding-bottom: 52.73px;
+}
+
+.deliverycard {
+    display: inline-block;
+    background-color: #F13C6E;
+    width:540px;
+    vertical-align: top;
+}
+
+.award.moreshopes {
+    width:141px;
+}
+
+.textdeliveryblock {
+    padding-left: 40px;
+    display: inline-block;
+}
+
+.shopsmapblock {
+    margin-top: 7px;
+}
+
+.shopsmap {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-left:29px;
+    padding-top:9px;
+    padding-right: 28px;
+    padding-bottom: 9px;
+}
+
+.deliveryblock {
+    display: inline-block;
+    padding-left:0px;
+    padding-right:45px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.impulsblock {
+    margin-top:100px;
+    background-color: #FFFFFF;;
+}
+
+.impulsrow.firstimpuls {
+    display: inline-block;  
+    padding-top: 35px;  
+    padding-left:60px;
+    padding-right:69px;
+    padding-bottom:35px;
+    border: 1px solid #EFEFEF;
+}
+
+.impulsrow.secondimpuls {
+    display: inline-block;  
+    padding-top: 35px;  
+    padding-left:61px;
+    padding-right:67px;
+    padding-bottom:35px;
+    border: 1px solid #EFEFEF;
+}
+
+.impulsrow.thirdimpuls {
+    display: inline-block;  
+    padding-top: 35px;  
+    padding-left:64px;
+    padding-right:65px;
+    padding-bottom:35px;
+    border: 1px solid #EFEFEF;
+}
+
+.impulsrow.lastimpuls {
+    display: inline-block;  
+    padding-top: 35px;  
+    padding-left:65px;
+    padding-right:55px;
+    padding-bottom:35px;
+    border: 1px solid #EFEFEF;
+}
+
+.category {
+    font-weight: 500;
+    font-size: 16px;
+    line-height:22.5px;
+    width:99px;
+    margin-bottom:30px;
+}
+
+.footer {
+    margin-top:60px;
+}
+
+.footerlistsblock {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.footerline {
+    border: 1px solid #EFEFEF;
+    width:255px;
+}
+
+.footerlists {
+    margin-top:25px;
+}
+
+.footer-item {
+    margin-bottom:14px;
+}
+
+.footerlinks {
+    text-decoration: none;
+    color:#A1A1A1;
+    font-size: 12px;
+}
+
+.footerlistsblock.lastfooterlistsblock {
+    margin-right:0px;
+}
+
+.footerservicesblock {
+    margin-bottom: 60px;
+}
+
+.footerwideline {
+    border: 1px solid #EFEFEF;
+}
+
+.navigationfooter {
+    margin-top: 37px;
+    margin-bottom: 15px;
+    vertical-align: top;
+}
+
+.soc-links {
+    text-decoration: none;
+    display:inline-block;
+    margin-right: 16px;
+}
+
+.soc-instagram {
+    margin-right:0px;
+}
+
+.phonenumber {
+    display:inline-block;
+    margin-left: 537px;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+    width: 127px;
+    height: 19px;
+    left: 0px;
+    top: -20px;
+}
+
+.recalling {
+    display:inline-block;
+    position: relative;
+    top:-22px;
+    left:40px;
+    font-size: 14px;
+    line-height: 16px;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    padding-left: 27px;
+    padding-right: 26px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.lastfooter {
+    background-color: #EFEFEF;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.rightsandconf {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.rightreserved {
+    display: inline-block;
+    margin-right:345px;
+}
+
+.confedentional {
+    display: inline-block;
+}
+
