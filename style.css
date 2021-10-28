@@ -313,6 +313,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     color: #C4C4C4;
+    border-color: transparent;
 }
 
 .messageblock {
@@ -341,10 +342,10 @@ body {
 }
 
 .shopsmapblock {
-    margin-top: 7px;
 }
 
 .shopsmap {
+    display:inline-block;
     text-decoration: none;
     font-size: 14px;
     line-height: 16px;
@@ -364,8 +365,8 @@ body {
     display: inline-block;
     padding-left:0px;
     padding-right:45px;
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding-top: 54px;
+    padding-bottom: 54px;
 }
 
 .item-impuls {
@@ -405,11 +406,6 @@ body {
     display: inline-block;
 }
 
-.footerline {
-    /*border: 1px solid #EFEFEF;
-    width:255px;*/
-}
-
 .footerlists {
     padding-top:25px;
     width:255px;
@@ -434,10 +430,7 @@ body {
 
 .footerservicesblock {
     margin-bottom: 60px;
-}
-
-.footerwideline {
-    border: 1px solid #EFEFEF;
+    
 }
 
 .item-soc {
@@ -453,6 +446,7 @@ body {
 
 .soc-and-recall {
     background-color: #FFFFFF;
+    border-top:1px solid #EFEFEF;
 }
 
 .footernavimages {
